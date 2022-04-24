@@ -10,6 +10,7 @@
       <class name="tests.ChangeDefaultCurrencyTest"/>
       <class name="tests.ReturnOrderStoreFrontTest"/>
       <class name="tests.ReturnOrderDashboardTest"/>
+      <class name="tests.AddNewUserTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

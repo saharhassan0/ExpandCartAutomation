@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.CreateOrderFromStoreFrontTest">
+      <class name="tests.AddNewUserTest">
         <methods>
-          <include name="completeOrder"/>
           <include name="teardown"/>
           <include name="StartDriver"/>
-          <include name="orderSuccessMsg"/>
+          <include name="confirmUserIsAdded"/>
         </methods>
-      </class> <!-- tests.CreateOrderFromStoreFrontTest -->
+      </class> <!-- tests.AddNewUserTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
